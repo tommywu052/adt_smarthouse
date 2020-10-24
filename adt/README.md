@@ -1,1 +1,1 @@
-#Smart House Azure digital twins DTDL schema
+# Smart House Azure digital twins DTDL schema
