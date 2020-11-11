@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SampleFunctionsApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ADT_SERVICE_URL": "https://adt-temp.api.wcus.digitaltwins.azure.net"
+      }
+    }
+  }
+}

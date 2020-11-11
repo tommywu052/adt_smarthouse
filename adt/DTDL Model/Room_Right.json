@@ -1,0 +1,37 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:MRIoTHome:Room_Right;1",
+  "@type": "Interface",
+  "displayName": "Room_Right",
+  "contents": [
+    {
+      "@type": "Component",
+      "name": "EnvironmentSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Environment;1"
+    },
+    {
+      "@type": "Component",
+      "name": "FlameSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Flame;1"
+    },
+    {
+      "@type": "Component",
+      "name": "SmokeSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Smoke;1"
+    },      
+    {
+      "@type": "Component",
+      "name": "LightSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Light;1"
+    }, 
+    {
+      "@type": "Component",
+      "name": "CameraSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Camera;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains"
+    } 
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:Plant;1",
+  "@type": "Interface",
+  "displayName": "Plant",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Location",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Color",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Spinspeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains"
+    }
+  ]
+}

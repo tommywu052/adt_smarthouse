@@ -1,0 +1,18 @@
+{
+    "Temperature": "Right",
+    "Humidity": "Right",
+    "Flame": "Right",
+    "Light": "Right",
+    "Distance": "Left_Bottom",
+    "Smoke": "Right",
+    "PIRState": "Left_Bottom"
+},
+{
+    "Temperature": 27,
+    "Humidity": 60,
+    "Flame": 959,
+    "Light": 179,
+    "Distance": 150.9988,
+    "Smoke": 277,
+    "PIRState": true
+}

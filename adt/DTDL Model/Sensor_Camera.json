@@ -1,0 +1,14 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:MRIoTHome:Sensor:Camera;1",
+    "@type": "Interface",
+    "displayName": "Camera Sensor",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "label",
+        "schema": "string"
+      }
+    ]
+  }
+  

@@ -1,0 +1,19 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:MRIoTHome:Sensor:Environment;1",
+    "@type": "Interface",
+    "displayName": "Environment Sensor",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "Temperature",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "Humidity",
+        "schema": "integer"
+      }
+    ]
+  }
+  

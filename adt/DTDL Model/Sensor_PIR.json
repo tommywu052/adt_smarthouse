@@ -1,0 +1,14 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:MRIoTHome:Sensor:PIR;1",
+    "@type": "Interface",
+    "displayName": "PIR Sensor",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "PIRState",
+        "schema": "boolean"
+      }
+    ]
+  }
+  

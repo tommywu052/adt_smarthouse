@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=andymsdnsharedstorage;AccountKey=e5jecZ5NS0TdCyelVHHOCsWdtkxMKlx1QISkBcSERw+UedumI8Qgwv4LOTuM4rnUyjN96vRYJxQenLywD2kN9A==;EndpointSuffix=core.windows.net",
+    "EventHubAppSetting-Twins": "Endpoint=sb://eventhubtemp.servicebus.windows.net/;SharedAccessKeyName=auth_role_twinshub;SharedAccessKey=f65adJBmoX3tZKKpfX1jaVgEEnU8VPRRgW7t4Stgejg=;EntityPath=twinshub",
+    "EventHubAppSetting-TSI": "Endpoint=sb://eventhubtemp.servicebus.windows.net/;SharedAccessKeyName=auth_role_tsihub;SharedAccessKey=la3aDJST44ofPZKDVUX7jjLIqY9W55QyFkM3XyMrlH4=;EntityPath=tsihub",
+    "AzureWebJobsStorage-MSDN": "DefaultEndpointsProtocol=https;AccountName=tsi0908;AccountKey=9IwpdEWDS8KgVGJdfV5RHSTJxCgA/KXsP6c/UsHjpg42hlJ8o3/SXP9zmMmy/9aD4ZY4iaxFAj5bjeUn59n+Ew==;EndpointSuffix=core.windows.net",
+    "EventHubAppSetting-Twins-MSDN": "Endpoint=sb://jerryeventhub.servicebus.windows.net/;SharedAccessKeyName=auth_rule_twinshub;SharedAccessKey=Yq7un4hHUwOkGQOzmH95dC1x67U9Bu4c/ba5p5Fw6ds=;EntityPath=twinshub",
+    "EventHubAppSetting-TSI-MSDN": "Endpoint=sb://jerryeventhub.servicebus.windows.net/;SharedAccessKeyName=auth_rule_tsihub;SharedAccessKey=DkNRJvLcL6Mcb5h06eWgSmuCb9ryDntdhqH9YgsXWkA=;EntityPath=tsihub",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:MRIoTHome:Room_LeftBottom;1",
+  "@type": "Interface",
+  "displayName": "Room_LeftBottom",
+  "contents": [
+    {
+      "@type": "Component",
+      "name": "PIRSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:PIR;1"
+    },
+    {
+      "@type": "Component",
+      "name": "DistanceSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Distance;1"
+    },
+    {
+      "@type": "Component",
+      "name": "CameraSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Camera;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains"
+    } 
+  ]
+}

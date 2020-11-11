@@ -1,0 +1,14 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:MRIoTHome:Sensor:Flame;1",
+    "@type": "Interface",
+    "displayName": "Flame Sensor",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "Flame",
+        "schema": "integer"
+      }      
+    ]
+  }
+  

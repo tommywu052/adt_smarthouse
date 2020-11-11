@@ -1,0 +1,28 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:Cutter_tool;1",
+  "@type": "Interface",
+  "displayName": "Cutter_tool",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Cutter_model",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Location",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Spinspeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Maximum_usage",
+      "schema": "integer"
+    }
+  ]
+}

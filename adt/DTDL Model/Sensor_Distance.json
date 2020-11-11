@@ -1,0 +1,14 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:MRIoTHome:Sensor:Distance;1",
+    "@type": "Interface",
+    "displayName": "Distance Sensor",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "Distance",
+        "schema": "float"
+      }
+    ]
+  }
+  

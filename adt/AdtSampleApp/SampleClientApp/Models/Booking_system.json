@@ -1,0 +1,28 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:Booking_system;1",
+  "@type": "Interface",
+  "displayName": "Booking_system",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "People_count",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "People_limit",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "Status",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Location",
+      "schema": "string"
+    }
+  ]
+}

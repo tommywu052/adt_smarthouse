@@ -1,0 +1,42 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:MRIoTHome:Floor;1",
+  "@type": "Interface",
+  "displayName": "Floor",
+  "contents": [
+    {
+      "@type": "Component",
+      "name": "DistanceSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Distance;1"
+    },
+    {
+      "@type": "Component",
+      "name": "EnvironmentSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Environment;1"
+    },
+    {
+      "@type": "Component",
+      "name": "FlameSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Flame;1"
+    },
+    {
+      "@type": "Component",
+      "name": "SmokeSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Smoke;1"
+    },      
+    {
+      "@type": "Component",
+      "name": "LightSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:Light;1"
+    },
+    {
+      "@type": "Component",
+      "name": "PIRSensor",
+      "schema": "dtmi:MRIoTHome:Sensor:PIR;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:Three_color_light;1",
+  "@type": "Interface",
+  "displayName": "Three_color_light",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Color",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Location",
+      "schema": "string"
+    }
+  ]
+}

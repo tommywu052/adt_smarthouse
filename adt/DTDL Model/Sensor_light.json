@@ -1,0 +1,14 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:MRIoTHome:Sensor:Light;1",
+    "@type": "Interface",
+    "displayName": "Light Sensor",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "Light",
+        "schema": "integer"
+      }
+    ]
+  }
+  

@@ -1,0 +1,32 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:example:CNC_machine;1",
+  "@type": "Interface",
+  "displayName": "CNC_machine",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Location",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Spinspeed",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Current_usage",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "Color",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains"
+    }
+  ]
+}

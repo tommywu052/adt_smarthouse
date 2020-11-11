@@ -1,0 +1,42 @@
+{
+  "@id": "dtmi:example:Room;1",
+  "@type": "Interface",
+  "displayName": "Room",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Location",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Humidity",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "RoomName",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "People_count",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "Status",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
