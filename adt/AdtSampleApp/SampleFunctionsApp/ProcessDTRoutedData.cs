@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
+using System.Linq;
 using System.Net.Http;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
@@ -89,6 +90,15 @@ namespace SampleFunctionsApp
                                     {
                                         propertyPath = "/CameraSensor/label";
                                         await AdtUtilities.UpdateTwinPropertyAsync(client, parentId, propertyPath, operation["value"].Value<string>(), log);
+
+                                        if (!operation["value"].ToString().Contains("no"))
+                                        {
+                                            log.LogWarning("=============Value: " + operation["value"]);
+                                            var peopleCount = AdtUtilities.GetTwinPropertyValueAsync(client, parentId, "PeopleCount", log);
+                                            log.LogWarning("=============People Count: " + peopleCount.ToString());
+                                            int count = Int32.Parse(peopleCount.ToString()) + 1;
+                                            await AdtUtilities.UpdateTwinPropertyAsync(client, parentId, "/PeopleCount", count, log);
+                                        }
                                     }
                                     else {
                                         await AdtUtilities.UpdateTwinPropertyAsync(client, parentId, propertyPath, operation["value"].Value<int>(), log);

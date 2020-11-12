@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TboJY+lkGpuJr4DxeQbLC6wb+z8kvCzidTBn/ZVg/TpRpWOcPTB7TVE3WjeC72pgPZsuEO57HaqllIqAREZ5ew==",
+  "dgSpecHash": "GEau9HET6OUTSFr4ivBk5wGlhI+ujLH5JZB9jX+1q37AbFuYKa4Cx/hkykzkNsEnMY/mMeu9u92bDqcNhGvZLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vmadmin\\Documents\\ADT+IoTHome\\Azure_Digital_Twins_end_to_end_samples\\CameraDeviceSimulator\\DeviceSimulator\\DeviceSimulator.csproj",
+  "projectFilePath": "C:\\Github\\adt_smarthouse\\adt\\CameraDeviceSimulator\\DeviceSimulator\\DeviceSimulator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vmadmin\\.nuget\\packages\\azure.core\\1.2.1\\azure.core.1.2.1.nupkg.sha512",
     "C:\\Users\\vmadmin\\.nuget\\packages\\azure.messaging.eventhubs\\5.1.0\\azure.messaging.eventhubs.5.1.0.nupkg.sha512",

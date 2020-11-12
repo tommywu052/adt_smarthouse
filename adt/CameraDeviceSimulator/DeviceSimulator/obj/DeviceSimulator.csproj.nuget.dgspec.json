@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vmadmin\\Documents\\ADT+IoTHome\\Azure_Digital_Twins_end_to_end_samples\\CameraDeviceSimulator\\DeviceSimulator\\DeviceSimulator.csproj": {}
+    "C:\\Github\\adt_smarthouse\\adt\\CameraDeviceSimulator\\DeviceSimulator\\DeviceSimulator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vmadmin\\Documents\\ADT+IoTHome\\Azure_Digital_Twins_end_to_end_samples\\CameraDeviceSimulator\\DeviceSimulator\\DeviceSimulator.csproj": {
+    "C:\\Github\\adt_smarthouse\\adt\\CameraDeviceSimulator\\DeviceSimulator\\DeviceSimulator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vmadmin\\Documents\\ADT+IoTHome\\Azure_Digital_Twins_end_to_end_samples\\CameraDeviceSimulator\\DeviceSimulator\\DeviceSimulator.csproj",
+        "projectUniqueName": "C:\\Github\\adt_smarthouse\\adt\\CameraDeviceSimulator\\DeviceSimulator\\DeviceSimulator.csproj",
         "projectName": "DeviceSimulator",
-        "projectPath": "C:\\Users\\vmadmin\\Documents\\ADT+IoTHome\\Azure_Digital_Twins_end_to_end_samples\\CameraDeviceSimulator\\DeviceSimulator\\DeviceSimulator.csproj",
+        "projectPath": "C:\\Github\\adt_smarthouse\\adt\\CameraDeviceSimulator\\DeviceSimulator\\DeviceSimulator.csproj",
         "packagesPath": "C:\\Users\\vmadmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vmadmin\\Documents\\ADT+IoTHome\\Azure_Digital_Twins_end_to_end_samples\\CameraDeviceSimulator\\DeviceSimulator\\obj\\",
+        "outputPath": "C:\\Github\\adt_smarthouse\\adt\\CameraDeviceSimulator\\DeviceSimulator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vmadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",

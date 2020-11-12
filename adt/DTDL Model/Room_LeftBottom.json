@@ -5,6 +5,11 @@
   "displayName": "Room_LeftBottom",
   "contents": [
     {
+      "@type": "Property",
+      "name": "PeopleCount",
+      "schema": "integer"
+    },
+    {
       "@type": "Component",
       "name": "PIRSensor",
       "schema": "dtmi:MRIoTHome:Sensor:PIR;1"

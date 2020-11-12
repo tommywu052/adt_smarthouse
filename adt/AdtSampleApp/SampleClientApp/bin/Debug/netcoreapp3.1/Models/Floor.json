@@ -1,0 +1,32 @@
+{
+  "@id": "dtmi:example:Floor;1",
+  "@type": "Interface",
+  "displayName": "Floor",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Location",
+      "schema": "string"
+    },
+	{
+      "@type": "Property",
+      "name": "People_count",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "Temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Humidity",
+      "schema": "double"
+    },
+    {
+      "@type": "Relationship",
+      "name": "contains"
+    }
+  ]
+}

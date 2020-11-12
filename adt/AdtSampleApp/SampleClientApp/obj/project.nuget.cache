@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6rd7brOzy/vKFCxraTGuK0Us2ZWwH2gTzSwlrlSYTQByLOfxFA5zskrtjpuATwzstTV5j/FbSenwyV5JQhu6bA==",
+  "dgSpecHash": "dZ8BPB9YSogyTSzuVzSKBC5NBiyF47h3xfdj0e7BbmflB3ytLTBRhOFB6aZw8tnH51Y5Lwt4Nb1s+73TiEKFyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vmadmin\\Documents\\ADT+IoTHome\\AdtSampleApp\\SampleClientApp\\SampleClientApp.csproj",
+  "projectFilePath": "C:\\Github\\adt_smarthouse\\adt\\AdtSampleApp\\SampleClientApp\\SampleClientApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vmadmin\\.nuget\\packages\\azure.core\\1.5.0\\azure.core.1.5.0.nupkg.sha512",
     "C:\\Users\\vmadmin\\.nuget\\packages\\azure.digitaltwins.core\\1.0.0-preview.3\\azure.digitaltwins.core.1.0.0-preview.3.nupkg.sha512",

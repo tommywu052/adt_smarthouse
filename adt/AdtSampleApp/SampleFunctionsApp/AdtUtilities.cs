@@ -4,12 +4,14 @@ using Azure.DigitalTwins.Core.Serialization;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace SampleFunctionsApp
 {
     internal static class AdtUtilities
     {
+
         public static async Task<string> FindParentAsync(DigitalTwinsClient client, string child, string relname, ILogger log)
         {
             // Find parent using incoming relationships
@@ -73,6 +75,30 @@ namespace SampleFunctionsApp
             {
                 log.LogInformation($"*** Error:{exc.Status}/{exc.Message}");
             }
+        }
+
+        public static object GetTwinPropertyValueAsync(DigitalTwinsClient client, string twinId, string propertyName, ILogger log)
+        {
+            // If the twin does not exist, this will log an error
+            try
+            {
+                Response<string> res0 = client.GetDigitalTwin(twinId);
+                log.LogError(res0.Value);
+                if (res0 != null)
+                {
+                    var res = res0.Value;
+                    var obj = System.Text.Json.JsonSerializer.Deserialize<Dictionary<string, object>>(res);
+
+                    obj.TryGetValue(propertyName, out object value);
+                    return value;
+                }
+            }
+            catch (RequestFailedException exc)
+            {
+                log.LogInformation($"*** Error:{exc.Status}/{exc.Message}");
+            }
+
+            return null;
         }
     }
 }

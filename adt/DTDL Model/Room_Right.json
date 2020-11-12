@@ -5,6 +5,11 @@
   "displayName": "Room_Right",
   "contents": [
     {
+      "@type": "Property",
+      "name": "PeopleCount",
+      "schema": "integer"
+    },
+    {
       "@type": "Component",
       "name": "EnvironmentSensor",
       "schema": "dtmi:MRIoTHome:Sensor:Environment;1"
