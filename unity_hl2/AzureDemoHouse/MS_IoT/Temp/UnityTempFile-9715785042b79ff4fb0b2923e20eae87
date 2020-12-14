@@ -1,0 +1,649 @@
+/target:library
+/nowarn:0169
+/out:Temp/Microsoft.MixedReality.Toolkit.SDK.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/PlayerScriptAssemblies/Microsoft.MixedReality.Toolkit.dll
+/reference:Library/PlayerScriptAssemblies/Microsoft.MixedReality.Toolkit.Async.dll
+/reference:Library/PlayerScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+/reference:Library/PlayerScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+/reference:Library/PlayerScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+/reference:Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/PlayerScriptAssemblies/UnityEngine.UI.dll
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/il2cpp/BCLExtensions/System.Runtime.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity2019/Editor/Data/il2cpp/BCLExtensions/System.Runtime.WindowsRuntime.UI.Xaml.dll"
+/reference:"C:/Program Files (x86)/Windows Kits/10/UnionMetadata/10.0.19041.0/Facade/Windows.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.AI.MachineLearning.MachineLearningContract/3.0.0.0/Windows.AI.MachineLearning.MachineLearningContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract/2.0.0.0/Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Calls.Background.CallsBackgroundContract/2.0.0.0/Windows.ApplicationModel.Calls.Background.CallsBackgroundContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Calls.CallsPhoneContract/5.0.0.0/Windows.ApplicationModel.Calls.CallsPhoneContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Calls.CallsVoipContract/4.0.0.0/Windows.ApplicationModel.Calls.CallsVoipContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract/2.0.0.0/Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.SocialInfo.SocialInfoContract/2.0.0.0/Windows.ApplicationModel.SocialInfo.SocialInfoContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.StartupTaskContract/3.0.0.0/Windows.ApplicationModel.StartupTaskContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Devices.Custom.CustomDeviceContract/1.0.0.0/Windows.Devices.Custom.CustomDeviceContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Devices.DevicesLowLevelContract/3.0.0.0/Windows.Devices.DevicesLowLevelContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Devices.Printers.PrintersContract/1.0.0.0/Windows.Devices.Printers.PrintersContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract/3.0.0.0/Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Devices.SmartCards.SmartCardEmulatorContract/6.0.0.0/Windows.Devices.SmartCards.SmartCardEmulatorContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Foundation.FoundationContract/4.0.0.0/Windows.Foundation.FoundationContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Foundation.UniversalApiContract/10.0.0.0/Windows.Foundation.UniversalApiContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Gaming.XboxLive.StorageApiContract/1.0.0.0/Windows.Gaming.XboxLive.StorageApiContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Graphics.Printing3D.Printing3DContract/4.0.0.0/Windows.Graphics.Printing3D.Printing3DContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Networking.Connectivity.WwanContract/2.0.0.0/Windows.Networking.Connectivity.WwanContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Networking.Sockets.ControlChannelTriggerContract/3.0.0.0/Windows.Networking.Sockets.ControlChannelTriggerContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Security.Isolation.IsolatedWindowsEnvironmentContract/1.0.0.0/Windows.Security.Isolation.IsolatedWindowsEnvironmentContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Services.Maps.GuidanceContract/3.0.0.0/Windows.Services.Maps.GuidanceContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Services.Maps.LocalSearchContract/4.0.0.0/Windows.Services.Maps.LocalSearchContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Services.Store.StoreContract/4.0.0.0/Windows.Services.Store.StoreContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Services.TargetedContent.TargetedContentContract/1.0.0.0/Windows.Services.TargetedContent.TargetedContentContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Storage.Provider.CloudFilesContract/4.0.0.0/Windows.Storage.Provider.CloudFilesContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.System.Profile.ProfileHardwareTokenContract/1.0.0.0/Windows.System.Profile.ProfileHardwareTokenContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.System.Profile.ProfileSharedModeContract/2.0.0.0/Windows.System.Profile.ProfileSharedModeContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.System.Profile.SystemManufacturers.SystemManufacturersContract/3.0.0.0/Windows.System.Profile.SystemManufacturers.SystemManufacturersContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.System.SystemManagementContract/7.0.0.0/Windows.System.SystemManagementContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.UI.ViewManagement.ViewManagementViewScalingContract/1.0.0.0/Windows.UI.ViewManagement.ViewManagementViewScalingContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.UI.Xaml.Core.Direct.XamlDirectContract/2.0.0.0/Windows.UI.Xaml.Core.Direct.XamlDirectContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Activation.ActivatedEventsContract/1.0.0.0/Windows.ApplicationModel.Activation.ActivatedEventsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Activation.ActivationCameraSettingsContract/1.0.0.0/Windows.ApplicationModel.Activation.ActivationCameraSettingsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Activation.ContactActivatedEventsContract/1.0.0.0/Windows.ApplicationModel.Activation.ContactActivatedEventsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract/1.0.0.0/Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract/1.0.0.0/Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Calls.LockScreenCallContract/1.0.0.0/Windows.ApplicationModel.Calls.LockScreenCallContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.FullTrustAppContract/1.0.0.0/Windows.ApplicationModel.FullTrustAppContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Preview.InkWorkspace.PreviewInkWorkspaceContract/1.0.0.0/Windows.ApplicationModel.Preview.InkWorkspace.PreviewInkWorkspaceContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Preview.Notes.PreviewNotesContract/2.0.0.0/Windows.ApplicationModel.Preview.Notes.PreviewNotesContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Resources.Management.ResourceIndexerContract/2.0.0.0/Windows.ApplicationModel.Resources.Management.ResourceIndexerContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Search.Core.SearchCoreContract/1.0.0.0/Windows.ApplicationModel.Search.Core.SearchCoreContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Search.SearchContract/1.0.0.0/Windows.ApplicationModel.Search.SearchContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.ApplicationModel.Wallet.WalletContract/1.0.0.0/Windows.ApplicationModel.Wallet.WalletContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Devices.Portable.PortableDeviceContract/1.0.0.0/Windows.Devices.Portable.PortableDeviceContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Devices.Printers.Extensions.ExtensionsContract/2.0.0.0/Windows.Devices.Printers.Extensions.ExtensionsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Devices.Scanners.ScannerDeviceContract/1.0.0.0/Windows.Devices.Scanners.ScannerDeviceContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Devices.Sms.LegacySmsApiContract/1.0.0.0/Windows.Devices.Sms.LegacySmsApiContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Gaming.Input.GamingInputPreviewContract/1.0.0.0/Windows.Gaming.Input.GamingInputPreviewContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Gaming.Preview.GamesEnumerationContract/2.0.0.0/Windows.Gaming.Preview.GamesEnumerationContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Gaming.UI.GameChatOverlayContract/1.0.0.0/Windows.Gaming.UI.GameChatOverlayContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Gaming.UI.GamingUIProviderContract/1.0.0.0/Windows.Gaming.UI.GamingUIProviderContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract/1.0.0.0/Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Management.Deployment.Preview.DeploymentPreviewContract/1.0.0.0/Windows.Management.Deployment.Preview.DeploymentPreviewContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Management.Workplace.WorkplaceSettingsContract/1.0.0.0/Windows.Management.Workplace.WorkplaceSettingsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.AppBroadcasting.AppBroadcastingContract/1.0.0.0/Windows.Media.AppBroadcasting.AppBroadcastingContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.AppRecording.AppRecordingContract/1.0.0.0/Windows.Media.AppRecording.AppRecordingContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.Capture.AppBroadcastContract/2.0.0.0/Windows.Media.Capture.AppBroadcastContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.Capture.AppCaptureContract/4.0.0.0/Windows.Media.Capture.AppCaptureContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.Capture.AppCaptureMetadataContract/1.0.0.0/Windows.Media.Capture.AppCaptureMetadataContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.Capture.CameraCaptureUIContract/1.0.0.0/Windows.Media.Capture.CameraCaptureUIContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.Capture.GameBarContract/1.0.0.0/Windows.Media.Capture.GameBarContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.Devices.CallControlContract/1.0.0.0/Windows.Media.Devices.CallControlContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.MediaControlContract/1.0.0.0/Windows.Media.MediaControlContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.Playlists.PlaylistsContract/1.0.0.0/Windows.Media.Playlists.PlaylistsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Media.Protection.ProtectionRenewalContract/1.0.0.0/Windows.Media.Protection.ProtectionRenewalContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract/1.0.0.0/Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Networking.XboxLive.XboxLiveSecureSocketsContract/1.0.0.0/Windows.Networking.XboxLive.XboxLiveSecureSocketsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Perception.Automation.Core.PerceptionAutomationCoreContract/1.0.0.0/Windows.Perception.Automation.Core.PerceptionAutomationCoreContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Security.EnterpriseData.EnterpriseDataContract/5.0.0.0/Windows.Security.EnterpriseData.EnterpriseDataContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Security.ExchangeActiveSyncProvisioning.EasContract/1.0.0.0/Windows.Security.ExchangeActiveSyncProvisioning.EasContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.System.Profile.ProfileRetailInfoContract/1.0.0.0/Windows.System.Profile.ProfileRetailInfoContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.System.UserProfile.UserProfileContract/2.0.0.0/Windows.System.UserProfile.UserProfileContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.System.UserProfile.UserProfileLockScreenContract/1.0.0.0/Windows.System.UserProfile.UserProfileLockScreenContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.UI.ApplicationSettings.ApplicationsSettingsContract/1.0.0.0/Windows.UI.ApplicationSettings.ApplicationsSettingsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.UI.Core.AnimationMetrics.AnimationMetricsContract/1.0.0.0/Windows.UI.Core.AnimationMetrics.AnimationMetricsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.UI.Core.CoreWindowDialogsContract/1.0.0.0/Windows.UI.Core.CoreWindowDialogsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.UI.Shell.SecurityAppManagerContract/1.0.0.0/Windows.UI.Shell.SecurityAppManagerContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.UI.Xaml.Hosting.HostingContract/4.0.0.0/Windows.UI.Xaml.Hosting.HostingContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Web.Http.Diagnostics.HttpDiagnosticsContract/2.0.0.0/Windows.Web.Http.Diagnostics.HttpDiagnosticsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Embedded.DeviceLockdown.DeviceLockdownContract/1.0.0.0/Windows.Embedded.DeviceLockdown.DeviceLockdownContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Networking.NetworkOperators.NetworkOperatorsFdnContract/1.0.0.0/Windows.Networking.NetworkOperators.NetworkOperatorsFdnContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Phone.PhoneContract/1.0.0.0/Windows.Phone.PhoneContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.Phone.StartScreen.DualSimTileContract/1.0.0.0/Windows.Phone.StartScreen.DualSimTileContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.UI.WebUI.Core.WebUICommandBarContract/1.0.0.0/Windows.UI.WebUI.Core.WebUICommandBarContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/References/10.0.19041.0/Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract/1.0.0.0/Windows.UI.Core.Preview.Communications.PreviewCommunicationsContract.winmd"
+/reference:"C:/Program Files (x86)/Windows Kits/10/UnionMetadata/10.0.19041.0/Facade/Windows.winmd"
+/define:UNITY_2019_3_15
+/define:UNITY_2019_3
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_WINRT
+/define:PLATFORM_METRO
+/define:UNITY_METRO
+/define:UNITY_METRO_API
+/define:UNITY_WSA
+/define:UNITY_WSA_10_0
+/define:UNITY_WINRT_10_0
+/define:UNITY_WINRT
+/define:ENABLE_MOVIES
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_NETWORK
+/define:UNITY_PLATFORM_THREAD_TO_CORE_MAPPING
+/define:PLATFORM_SUPPORTS_ADS_ID
+/define:CURL_STATICLIB
+/define:PLATFORM_OVERRIDES_APPLICATION_PACKAGE_NAME
+/define:PLATFORM_IMPLEMENTS_ATTACH_DIALOG
+/define:DISABLE_PLUGIN_LOAD_WRAPPER
+/define:ENABLE_IL2CPP
+/define:NET_4_6
+/define:DEVELOPMENT_BUILD
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+/define:ENABLE_WINMD_SUPPORT
+/define:WINDOWS_UWP
+Assets\MRTK\SDK\AssemblyInfo.cs
+Assets\MRTK\SDK\Experimental\Dialog\Scripts\Dialog.cs
+Assets\MRTK\SDK\Experimental\Dialog\Scripts\DialogButton.cs
+Assets\MRTK\SDK\Experimental\Dialog\Scripts\DialogButtonType.cs
+Assets\MRTK\SDK\Experimental\Dialog\Scripts\DialogResult.cs
+Assets\MRTK\SDK\Experimental\Dialog\Scripts\DialogShell.cs
+Assets\MRTK\SDK\Experimental\Dialog\Scripts\DialogState.cs
+Assets\MRTK\SDK\Experimental\Dock\Dock.cs
+Assets\MRTK\SDK\Experimental\Dock\DockPosition.cs
+Assets\MRTK\SDK\Experimental\Dock\Dockable.cs
+Assets\MRTK\SDK\Experimental\Dock\DockingState.cs
+Assets\MRTK\SDK\Experimental\Features\Dwell\DwellHandler.cs
+Assets\MRTK\SDK\Experimental\Features\Dwell\DwellProfile.cs
+Assets\MRTK\SDK\Experimental\Features\Dwell\DwellUnityEvent.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\BoundsControl.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\BoundsControlTypes.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\BoxDisplay.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\Configuration\BoxDisplayConfiguration.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\Configuration\HandlesBaseConfiguration.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\Configuration\LinksConfiguration.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\Configuration\RotationHandlesConfiguration.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\Configuration\ScaleHandlesConfiguration.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\HandlesBase.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\Links.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\ProximityEffect\IProximityEffectObjectProvider.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\ProximityEffect\ProximityEffect.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\ProximityEffect\ProximityEffectConfiguration.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\RotationHandles.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\ScaleHandles.cs
+Assets\MRTK\SDK\Experimental\Features\UX\BoundsControl\Visuals\VisualUtils.cs
+Assets\MRTK\SDK\Experimental\Features\Utilities\DirectionalIndicator.cs
+Assets\MRTK\SDK\Experimental\Features\Utilities\Migration\BoundsControlMigrationHandler.cs
+Assets\MRTK\SDK\Experimental\Features\Utilities\StabilizationPlaneModifier.cs
+Assets\MRTK\SDK\Experimental\Features\Utilities\WorldAnchorManager.cs
+Assets\MRTK\SDK\Experimental\FollowSolver\Follow.cs
+Assets\MRTK\SDK\Experimental\HandCoach\Scripts\HandInteractionHint.cs
+Assets\MRTK\SDK\Experimental\HandCoach\Scripts\MoveToTarget.cs
+Assets\MRTK\SDK\Experimental\HandCoach\Scripts\RotateAroundPoint.cs
+Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\KeyboardInputFieldBase.cs
+Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\MixedRealityKeyboard.cs
+Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\MixedRealityKeyboardBase.cs
+Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\TMP_KeyboardInputField.cs
+Assets\MRTK\SDK\Experimental\MixedRealityKeyboard\UI_KeyboardInputField.cs
+Assets\MRTK\SDK\Experimental\MixedRealityKeyboardPreview\MixedRealityKeyboardPreview.cs
+Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\AxisSlider.cs
+Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\CapsLockHighlight.cs
+Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\KeyboardKeyFunc.cs
+Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\KeyboardValueKey.cs
+Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\NonNativeKeyboard.cs
+Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\NonNativeKeyboardTouchAssistant.cs
+Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\SliderInputField.cs
+Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\SymbolDisableHighlight.cs
+Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\SymbolKeyboard.cs
+Assets\MRTK\SDK\Experimental\NonNativeKeyboard\Scripts\UICollection.cs
+Assets\MRTK\SDK\Experimental\PulseShader\Scripts\HandPulseLogic.cs
+Assets\MRTK\SDK\Experimental\PulseShader\Scripts\SurfacePulse.cs
+Assets\MRTK\SDK\Experimental\ScrollingObjectCollection\ScrollingObjectCollection.cs
+Assets\MRTK\SDK\Experimental\ScrollingObjectCollection\ScrollingObjectCollectionNode.cs
+Assets\MRTK\SDK\Experimental\ServiceManagers\Boundary\Scripts\BoundarySystemManager.cs
+Assets\MRTK\SDK\Experimental\ServiceManagers\Camera\Scripts\CameraSystemManager.cs
+Assets\MRTK\SDK\Experimental\ServiceManagers\Diagnostics\Scripts\DiagnosticsSystemManager.cs
+Assets\MRTK\SDK\Experimental\ServiceManagers\Input\Scripts\InputSystemManager.cs
+Assets\MRTK\SDK\Experimental\ServiceManagers\SpatialAwareness\Scripts\SpatialAwarenessSystemManager.cs
+Assets\MRTK\SDK\Experimental\ServiceManagers\Support\Scripts\BaseServiceManager.cs
+Assets\MRTK\SDK\Experimental\ServiceManagers\Teleport\Scripts\TeleportSystemManager.cs
+Assets\MRTK\SDK\Features\Audio\Influencers\AudioInfluencerController.cs
+Assets\MRTK\SDK\Features\Audio\Influencers\AudioLoFiEffect.cs
+Assets\MRTK\SDK\Features\Audio\Influencers\AudioLoFiSourceQuality.cs
+Assets\MRTK\SDK\Features\Audio\Influencers\AudioOccluder.cs
+Assets\MRTK\SDK\Features\Input\Events\HandPanEventData.cs
+Assets\MRTK\SDK\Features\Input\Events\InputActionUnityEvent.cs
+Assets\MRTK\SDK\Features\Input\Events\ManipulationEvent.cs
+Assets\MRTK\SDK\Features\Input\Events\ManipulationEventData.cs
+Assets\MRTK\SDK\Features\Input\Events\PanUnityEvent.cs
+Assets\MRTK\SDK\Features\Input\Events\PointerUnityEvent.cs
+Assets\MRTK\SDK\Features\Input\Events\TouchEvent.cs
+Assets\MRTK\SDK\Features\Input\Handlers\BaseEyeFocusHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\BaseFocusHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\BaseInputHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Constraints\ConstraintManager.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Constraints\FaceUserConstraint.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Constraints\FixedDistanceConstraint.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Constraints\FixedRotationToUserConstraint.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Constraints\FixedRotationToWorldConstraint.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Constraints\MaintainApparentSizeConstraint.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Constraints\MoveAxisConstraint.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Constraints\RotationAxisConstraint.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Constraints\TransformConstraint.cs
+Assets\MRTK\SDK\Features\Input\Handlers\ControllerPoseSynchronizer.cs
+Assets\MRTK\SDK\Features\Input\Handlers\CursorContextManipulationHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\CursorContextObjectManipulator.cs
+Assets\MRTK\SDK\Features\Input\Handlers\DictationHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\EyeTrackingTarget.cs
+Assets\MRTK\SDK\Features\Input\Handlers\FocusHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\InputActionHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Manipulation\ManipulationHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Manipulation\ManipulationMoveLogic.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Manipulation\TwoHandRotateLogic.cs
+Assets\MRTK\SDK\Features\Input\Handlers\Manipulation\TwoHandScaleLogic.cs
+Assets\MRTK\SDK\Features\Input\Handlers\MinMaxScaleConstraint.cs
+Assets\MRTK\SDK\Features\Input\Handlers\ObjectManipulator.cs
+Assets\MRTK\SDK\Features\Input\Handlers\PointerClickHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\PointerHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\SpeechInputHandler.cs
+Assets\MRTK\SDK\Features\Input\Handlers\TeleportHotSpot.cs
+Assets\MRTK\SDK\Features\Input\Handlers\TouchHandler.cs
+Assets\MRTK\SDK\Features\Input\InputSimulationIndicators.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\IInteractableHandler.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableAudioReceiver.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableEvent.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnClickReceiver.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnFocusReceiver.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnGrabReceiver.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnHoldReceiver.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnPressReceiver.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnToggleReceiver.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableOnTouchReceiver.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableReceiver.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\InteractableReceiverList.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\ReceiverBase.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Events\ReceiverBaseMonoBehavior.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Interactable.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\InteractableToggleCollection.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonBackgroundSize.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonBackgroundSizeOffset.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonBorder.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonCollider.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonLayout.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonSize.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Layout\ButtonSizeOffset.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Profile\InteractableProfileItem.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Selection\SelectionModes.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\Simulation\InteractablePointerSimulator.cs
+Assets\MRTK\SDK\Features\UX\Interactable\Scripts\States\InteractableStates.cs
+Assets\MRTK\SDK\Features\UX\Scripts\AppBar\AppBar.cs
+Assets\MRTK\SDK\Features\UX\Scripts\AppBar\AppBarButton.cs
+Assets\MRTK\SDK\Features\UX\Scripts\BoundingBox\BoundingBox.cs
+Assets\MRTK\SDK\Features\UX\Scripts\BoundingBox\BoundingBoxHelper.cs
+Assets\MRTK\SDK\Features\UX\Scripts\BoundingBox\IBoundsTargetProvider.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Buttons\ButtonConfigHelper.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Buttons\ButtonIconSet.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Buttons\ButtonIconStyle.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Collections\BaseObjectCollection.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Collections\CollectionEnums\LayoutAlignment.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Collections\CollectionEnums\LayoutAnchor.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Collections\CollectionEnums\LayoutOrder.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Collections\CollectionEnums\ObjectOrientationSurfaceType.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Collections\GridObjectCollection.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Collections\ObjectCollectionNode.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Collections\ScatterObjectCollection.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Collections\TileGridObjectCollection.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Controllers\MixedRealityControllerInfo.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Controllers\MixedRealityControllerVisualizer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Controllers\WindowsMixedRealityControllerVisualizer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Cursors\AnimatedCursor.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Cursors\BaseCursor.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Cursors\CursorContextInfo.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Cursors\CursorModifier.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Cursors\FingerCursor.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Cursors\InteractiveMeshCursor.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Cursors\MeshCursor.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Cursors\ObjectCursor.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Cursors\SpriteCursor.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Cursors\TeleportCursor.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Loader\LoaderController.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\BaseControllerPointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\BaseMousePointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\CurvePointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\DefaultPointerMediator.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\DefaultPrimaryPointerSelector.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\GGVPointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\LinePointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\MousePointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\ParabolicTeleportPointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\PokePointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\ScreenSpaceMousePointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\ShellHandRayPointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\SpherePointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\SpherePointerGrabPoint.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\SpherePointerVisual.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\TeleportPointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Pointers\TouchPointer.cs
+Assets\MRTK\SDK\Features\UX\Scripts\PressableButtons\PhysicalPressEventRouter.cs
+Assets\MRTK\SDK\Features\UX\Scripts\PressableButtons\PressableButton.cs
+Assets\MRTK\SDK\Features\UX\Scripts\PressableButtons\PressableButtonHoloLens2.cs
+Assets\MRTK\SDK\Features\UX\Scripts\PressableButtons\SubmitEventRouter.cs
+Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\IProgressIndicator.cs
+Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorLoadingBar.cs
+Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorObjectDisplay.cs
+Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorOrbsRotator.cs
+Assets\MRTK\SDK\Features\UX\Scripts\ProgressIndicators\ProgressIndicatorState.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Slate\FollowMeToggle.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Slate\HandInteractionPanZoom.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Sliders\PinchSlider.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Sliders\SliderAxis.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Sliders\SliderEvent.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Sliders\SliderEventData.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Sliders\SliderSounds.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\DestroyOnAnimationComplete.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\IToolTipBackground.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\IToolTipHighlight.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\SpeechConfirmationTooltip.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTip.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipBackgroundBlob.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipBackgroundCorners.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipBackgroundMesh.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipConnector.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipLineHighlight.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipSpawner.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\ToolTipUtility.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorFollowType.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorOrientType.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorPivotDirection.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ConnectorPivotMode.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\DisplayMode.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Tooltips\TooltipEnums\ToolTipAttachPoint.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Utilities\Billboard.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Utilities\Easing.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Utilities\GazeHandHelper.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Utilities\InputRecordingControls.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Utilities\InteractableHighlight.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Utilities\InteractableOnFocus.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Utilities\PointerBehaviorControls.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Utilities\RectTransformCubeScaler.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Utilities\ToggleHandVisualisation.cs
+Assets\MRTK\SDK\Features\UX\Scripts\Utilities\UIMaterialInstantiator.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\Theme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeDefinition.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeEaseSettings.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeProperty.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemePropertyValue.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemePropertyValueTypes.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\ThemeStateProperty.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\Core\VisualProfile.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\States\BaseStateModel.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\States\State.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\States\States.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableActivateTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableAnimatorTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableAudioTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableColorChildrenTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableColorTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableGrabScaleTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableMaterialTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableOffsetTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableRotationTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableScaleTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableShaderTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableStringTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableTextureTheme.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableThemeBase.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\InteractableThemeShaderUtils.cs
+Assets\MRTK\SDK\Features\UX\Scripts\VisualThemes\ThemeEngines\ScaleOffsetColorTheme.cs
+Assets\MRTK\SDK\Features\Utilities\HeadPositionOffset.cs
+Assets\MRTK\SDK\Features\Utilities\InputRayUtils.cs
+Assets\MRTK\SDK\Features\Utilities\Migration\ButtonConfigHelperMigrationHandler.cs
+Assets\MRTK\SDK\Features\Utilities\Migration\ObjectManipulatorMigrationHandler.cs
+Assets\MRTK\SDK\Features\Utilities\Migration\Tools\MigrationTool.cs
+Assets\MRTK\SDK\Features\Utilities\PointerUtils.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\ConstantViewSize.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\ControllerFinder.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\HandConstraint.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\HandConstraintPalmUp.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\InBetween.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\Momentum.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\Orbital.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\Overlap.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\RadialView.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\Solver.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\SolverHandler.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\SurfaceMagnetism.cs
+Assets\MRTK\SDK\Features\Utilities\Solvers\TapToPlace.cs
+Assets\MRTK\SDK\Features\Utilities\SpatialMeshExporter.cs
